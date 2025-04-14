@@ -1,0 +1,121 @@
+
+.container {
+  background-color: rgb(240, 236, 236);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1000px ;
+}
+.logo {
+  width: 320px;
+  height: 106px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  
+}
+.connect {
+  width: 400px;
+  height: 56px;
+  font-size: 24px;
+  display: flex;
+  margin-top: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  text-align: center;
+
+}
+.container1 {
+  margin-bottom: 30px;;
+}
+
+.container2 {
+  background-color: white;
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.input {
+  width: 100%; /* Ensure the input container takes full width */
+  height: auto; /* Adjust height to fit content */
+}
+
+.input1 {
+  width: 100%; /* Ensure inputs take full width of the parent */
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0; /* Add vertical spacing between inputs */
+}
+
+.phone {
+  width: 100%; /* Make input fields take full width of their container */
+  height: 52px;
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Add a border for better visibility */
+  padding: 10px; /* Add padding inside the input fields */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+ 
+.button {
+  width: 100%; /* Make the button take the full width of its container */
+  height: 50px; /* Adjust height as needed */
+  border: none;
+  border-radius: 5px;
+  background-color: #1877f2; /* Facebook blue */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px; /* Add spacing above the button */
+}
+
+.button:hover {
+  background-color: #145dbf; /* Darker blue on hover */
+}
+
+.create {
+  width: 180px; /* Ensure the "Create new account" button takes full width */
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #42b72a; /* Green color for the button */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px; /* Add spacing above the button */
+  font-weight: 1000;
+}
+.account-create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create:hover {
+  background-color: #36a420; /* Darker green on hover */
+}
+
+.forgot-password {
+  color: blue; /* Set the text color to blue */
+  text-align: center; /* Center the text horizontally */
+  font-size: 14px; /* Adjust font size if needed */
+  margin-top: 10px; /* Add spacing above the text */
+  cursor: pointer; /* Change cursor to pointer for better UX */
+}
+
+.forgot-password:hover {
+  text-decoration: underline; /* Add underline on hover for emphasis */
+}
+
+.divider {
+  border: none; /* Remove default border */
+  border-top: 1px solid #ccc; /* Add a light gray line */
+  margin: 20px 0; /* Add spacing above and below the line */
+  width: 100%; /* Make it span the full width of the container */
+}
